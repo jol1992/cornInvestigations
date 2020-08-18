@@ -1,0 +1,108 @@
+html{
+    font-family:  'Alata', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    margin:0px;
+}
+h1{
+    margin: 0px;
+}
+
+.navBar{
+display: grid;
+background-color: #161C21;
+
+}
+.navList{
+    display: flex;
+ list-style: none;
+}
+.mainDiv{
+    height: 100vh;
+    background: url(mainbg.jpg) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgba(red, green, blue, 0.8); */
+    /* font-size: 3em; */
+    filter: blur(1px);
+  -webkit-filter: blur(6px);
+}
+.mainText{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.mainText > h1{
+    font-size: 5em;
+}
+
+.infoSection {
+    height: 100vh;
+    background-color: #010203;
+    /* font-size: 3em; */
+    align-items: center;
+    margin:auto;
+
+}
+.bioDiv{
+    display: flex;
+    
+  
+ 
+    padding:5px;
+    /* height:40vh;
+    word-break:break-all; */
+    /* background-color: red; */
+    
+
+}
+.bioDiv >img{
+ height: 30vh;
+ border-radius: 50%;
+ float: none;
+ padding: 20px;
+ 
+
+}
+.sectionHeading{
+    /* height: 100vh;
+    background-color: #010203; */
+    font-size: 3em;
+    padding: 10px;
+    /* align-items: center;
+    margin:auto; */
+
+}
+li{
+    padding: 4px;
+    font-size: 1em;
+}
+
+/* .mainImg{
+    height: 100vh;
+
+} */
+
+.contactSection{
+    background-color: #161c21;
+    height: 100vh;
+}
+
+input{
+    border-radius: 4px;
+    height: 50px;
+}
