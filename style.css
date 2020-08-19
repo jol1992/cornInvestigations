@@ -26,8 +26,8 @@ background-color: #161C21;
 
 }
 li{
-    padding: 10px;
-    font-size: 2em;
+    padding: 5px;
+    font-size: 1.5em;
 }
 li:hover{
     color: khaki;
@@ -63,6 +63,7 @@ a:visited{
   
 }
 .mainText{
+    will-change: transform, opacity;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -79,6 +80,7 @@ a:visited{
 }
 .mainText > h1{
     font-size: 5em;
+    will-change: transform, opacity;
 }
 
 .mainText > p{
@@ -102,6 +104,7 @@ a:visited{
     /* font-size: 3em; */
     align-items: center;
     margin:auto;
+    padding: 200px;
 
 }
 .bioDiv{
@@ -113,12 +116,14 @@ a:visited{
  height: 30vh;
  border-radius: 50%;
  float: left;
- padding: 20px;
+ padding: 2px;
  margin-right: 1em;
+ /* background-color: #f1f1f1; */
+ background-color: khaki;
 }
 
 .bioDiv >p{
-    font-size: 2rem;
+    font-size: 1em;
 }
 .sectionHeading{
     /* height: 100vh;
@@ -150,6 +155,23 @@ a:visited{
 .contactSection{
     background-color: #161c21;
     height: 100vh;
+    background: url(cityscape2.jpg) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.contactContainer{
+    width: 500px;
+    display:grid;
+    margin: auto;
+    padding: 30px;
+    background-color:rgba(68, 65, 65, 0.3);
+    /* background-color:rgba(240, 230, 140, 0.8); */
+    border-radius: 4px;
+}
+textarea{
+    resize: vertical;
 }
 
 input{
