@@ -1,0 +1,48 @@
+/*------------------------ navBar ------------------------*/
+
+h1{
+    margin: 0px;
+}
+
+.navBar{
+display: grid;
+background-color: #2D3439;
+display:flex;
+color:#4C565E;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.navList{
+    display: flex;
+ list-style: none;
+ 
+}
+.navBar__homebutton{
+    padding:20px;
+    color:white ;
+}
+li{
+    padding: 5px;
+    /* font-size: 1.5em; */
+}
+li:hover{
+    color: khaki;
+}
+a{
+    text-decoration: inherit;
+}
+a:visited{
+    color: inherit;
+}
+.sticky{
+    position:fixed;
+    width: 100%;
+    top:0;
+    align-items: flex-end;
+    z-index: 2;
+    
+}
+.push{
+    margin-left: auto;
+}
