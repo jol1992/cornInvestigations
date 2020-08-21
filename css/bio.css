@@ -3,15 +3,15 @@
     /* font-size: 3em; */
     align-items: center;
     margin:auto;
-    padding: 200px;
+    padding: 20px;
 
 }
 .bioDiv{
     display: flex;
-    padding:5px;
+    padding:40px;
     margin: auto    
 }
-.bioDiv >img{
+.bioDiv >* img{
  height: 30vh;
  border-radius: 50%;
  float: left;
@@ -22,7 +22,7 @@
 }
 
 .bioDiv >p{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .sectionHeading{
     /* height: 100vh;
@@ -38,14 +38,36 @@
 @media only screen and (max-width:500px){
 
 
-    .bioDiv >img{
-        height: 10vh;
-        border-radius: 50%;
-        float: left;
-        padding: 20px;
-        margin-right: 1em;
-       }
-       .bioDiv >p{
-        font-size: 1rem;
+    .infoSection {
+        background-color: #161C21;
+        /* font-size: 3em; */
+        align-items: center;
+        margin:auto;
+        padding: 20px; 
+    
+    }
+    .bioDiv{
+        display: flex;
+        padding:5px;
+        margin: auto    
+    }
+    .bioDiv >* img{
+     float: left;
+     padding: 2px;
+     background-color: #928B73;
+     height: 30vh;
+    }
+    
+    .bioDiv >p{
+        font-size: 1em;
+    }
+    .sectionHeading{
+        /* height: 100vh;
+        background-color: #010203; */
+        font-size: 2rem;
+        padding: 10px;
+        /* align-items: center;
+        margin:auto; */
+    
     }
 }

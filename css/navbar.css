@@ -46,3 +46,11 @@ a:visited{
 .push{
     margin-left: auto;
 }
+
+@media only screen and (max-width:500px){
+    .navBar__homebutton{
+        padding:20px;
+        color:white ;
+        font-size: 1rem;
+    }
+}
