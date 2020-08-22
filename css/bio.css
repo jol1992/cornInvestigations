@@ -7,9 +7,8 @@
 
 }
 .bioDiv{
-    display: flex;
-    padding:40px;
-    margin: auto    
+    
+    padding:150px; 
 }
 .bioDiv >* img{
  height: 30vh;

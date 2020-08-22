@@ -1,0 +1,28 @@
+.services__container{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+
+.services__container > div{
+    flex-grow: 1;
+   text-align: center;
+   padding: 30px;
+    
+}
+.services__container > div> h1{
+    color:white;
+    margin-bottom: 30px;
+}
+
+.services__container > div>img{
+    height: 200px;
+    width: 200px;
+    margin:auto;
+}
+
+.services__container > div{
+    margin: 20px;
+    background-color:#928B73;
+}
