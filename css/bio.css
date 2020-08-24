@@ -1,5 +1,4 @@
 .infoSection {
-    background-color: #161C21;
     /* font-size: 3em; */
     align-items: center;
     margin:auto;
@@ -7,8 +6,9 @@
 
 }
 .bioDiv{
-    
+    display: grid;
     padding:150px; 
+    row-gap: 40px;
 }
 .bioDiv >* img{
  height: 30vh;
@@ -30,6 +30,12 @@
     /* align-items: center;
     margin:auto; */
 
+}
+
+.newsVideo{
+    width: 100%;
+    height: 700px;
+    margin: 100px auto;
 }
 
 
