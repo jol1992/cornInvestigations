@@ -1,7 +1,19 @@
+.services{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    color:#2E2815;
+}
+
+.services> h1:first-of-type{
+    font-size: 3rem;
+    color: #2D3439;
+}
 .services__container{
     display: flex;
-    background-color: white;
-    justify-content: center;
+       justify-content: center;
+       flex-wrap: wrap;
+    padding:40px;
 }
 
 
@@ -9,10 +21,18 @@
     flex-grow: 1;
    text-align: center;
    padding: 30px;
+   margin: 20px;
+   background-color:#928B73;
+   border:5px solid #332F21;
+   transition: all 1s;
+}
+
+.services__container > div:hover{
+transform:scale(1.1);
     
 }
 .services__container > div> h1{
-    color:white;
+    color:#2E2815;
     margin-bottom: 30px;
 }
 
@@ -20,9 +40,4 @@
     height: 200px;
     width: 200px;
     margin:auto;
-}
-
-.services__container > div{
-    margin: 20px;
-    background-color:#928B73;
 }

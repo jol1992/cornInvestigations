@@ -16,7 +16,6 @@
  float: left;
  padding: 2px;
  margin-right: 1em;
- /* background-color: #f1f1f1; */
  background-color: #928B73;
 }
 
@@ -36,37 +35,20 @@
 
 @media only screen and (max-width:500px){
 
-
-    .infoSection {
-        background-color: #161C21;
-        /* font-size: 3em; */
-        align-items: center;
-        margin:auto;
-        padding: 20px; 
-    
-    }
     .bioDiv{
-        display: flex;
-        padding:5px;
-        margin: auto    
+        padding:5px; 
     }
     .bioDiv >* img{
-     float: left;
      padding: 2px;
      background-color: #928B73;
-     height: 30vh;
+ 
     }
-    
     .bioDiv >p{
         font-size: 1em;
     }
+    
     .sectionHeading{
-        /* height: 100vh;
-        background-color: #010203; */
         font-size: 2rem;
         padding: 10px;
-        /* align-items: center;
-        margin:auto; */
-    
     }
 }

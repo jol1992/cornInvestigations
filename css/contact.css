@@ -15,8 +15,7 @@
     background-color:rgba(68, 65, 65, 0.6);
     /* background-color:rgba(240, 230, 140, 0.8); */
     border-radius: 4px;
-    border-color: black;
-    border-width: 10px;
+    border: 2px solid #2D3439;
 }
 .contactSection__Label{
     color: #928B73;
@@ -30,15 +29,23 @@ textarea{
 
 input , textarea{
     border-radius: 4px;
-    border-color:whitesmoke;
+    /* border-color:whitesmoke; */
     height: 70px;
     width:400px ;
     background-color: transparent;
-  
-    /* border-bottom-color: white;
-    border-bottom-width: 2px ;
-    border: 0; */
+
+    border:0;
+    border-bottom: 1px solid #4C565E;
     
+}
+input:focus , textarea:focus{
+    border:0;
+    border-bottom: 1px solid  white;
+}
+
+.contactContainer > button{
+    background-color: #928A73;
+    padding:20px;
 }
 
 ::placeholder {
@@ -55,8 +62,6 @@ input , textarea{
         background-color:rgba(68, 65, 65, 0.6);
         /* background-color:rgba(240, 230, 140, 0.8); */
         border-radius: 4px;
-        border-color: black;
-        border-width: 10px;
     }
 
     input , textarea{
@@ -70,6 +75,14 @@ input , textarea{
         border-bottom-width: 2px ;
         border: 0; */
         
+    }
+    .contactContainer > button{
+        padding:10px;
+    }
+
+    .contactContainer > button>img{
+        width:20px;
+       
     }
     
 }
