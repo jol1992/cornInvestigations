@@ -1,5 +1,5 @@
 .services{
-    background-color: white;
+
     text-align: center;
     padding: 40px;
     color:#2E2815;
@@ -7,7 +7,7 @@
 
 .services> h1:first-of-type{
     font-size: 3rem;
-    color: #2D3439;
+    color: #928B73;
 }
 .services__container{
     display: flex;
