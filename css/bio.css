@@ -7,7 +7,6 @@
 }
 .bioDiv{
     display: grid;
-    padding:150px; 
     row-gap: 40px;
 }
 .bioDiv >* img{

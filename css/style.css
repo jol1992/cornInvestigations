@@ -9,6 +9,10 @@ body{
     
 }
 
+hr{
+    width: 30%;
+}
+
 
 .fade-in {
     animation: fadeIn ease 3.5s;
