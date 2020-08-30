@@ -80,9 +80,7 @@ input:focus , textarea:focus{
         border-radius: 4px;
     }
 
-    input , textarea{
 
-    }
     .contactContainer > button{
         padding:10px;
     }
