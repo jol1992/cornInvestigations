@@ -58,14 +58,14 @@ a:visited{
     justify-content: center;
     align-items: center;
     width: 80px;
-    height: 80px;
+    height: 60px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     /* border: 3px solid #fff; */
   }
   .menu-btn__burger {
     width: 50px;
-    height: 6px;
+    height: 3px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
@@ -76,7 +76,7 @@ a:visited{
     content: '';
     position: absolute;
     width: 50px;
-    height: 6px;
+    height: 3px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);

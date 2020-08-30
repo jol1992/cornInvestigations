@@ -7,7 +7,7 @@
 }
 
 .services> h1:first-of-type{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     color: #928B73;
 }
 .services__container{
