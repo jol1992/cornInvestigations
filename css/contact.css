@@ -1,6 +1,4 @@
 .contactSection{
-    background-color: #161c21;
-    height: 100vh;
     /* background: url(../img/cityscape2.jpg) ;  */
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +7,7 @@
 
 }
 .contactContainer{
-    display:grid;
+    display:none;
     margin: auto 20%;
     padding: 30px;
     background-color:rgba(68, 65, 65, 0.6);
@@ -29,7 +27,6 @@ textarea{
 
 .contactSection> h1:first-of-type{
     color: white;
-    margin: auto;
     
 }
 

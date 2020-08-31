@@ -1,6 +1,7 @@
 .mainDiv{
     height: 100vh;
-    background: url(../img/cityscape2.jpg) ; 
+    background-color: (76,86,94);
+    background:linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url('../img/cityscape2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,14 +12,14 @@
   
 }
 .mainText{
-    will-change: transform, opacity;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* will-change: transform, opacity;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);  */
     color: white;
     font-weight: bold;
-    border: 3px solid #4C565E;
+    /* border: 3px solid #4C565E; */
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -55,6 +56,8 @@
 @media only screen and (max-width:500px){
 .mainDiv{
     background: url(../img/cityscape2-sm.jpg) ; 
+    background:linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(../img/cityscape2-sm.jpg);
+    background-color: rgb(76,86,94);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

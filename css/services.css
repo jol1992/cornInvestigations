@@ -2,7 +2,6 @@
 
     text-align: center;
     padding: 40px;
-    color:#2E2815;
 
 }
 
@@ -15,7 +14,6 @@
        justify-content: center;
        flex-wrap: wrap;
     padding:40px;
-    background-color: #727272;
     border-radius: 50px;
 }
 
@@ -35,14 +33,14 @@
 transform:scale(1.1);
     
 }
-.services__container > div> h1{
+.services__container > div> h3{
     color:#2E2815;
     margin-bottom: 30px;
 }
 
 .services__container > div>img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin:auto;
 }
 

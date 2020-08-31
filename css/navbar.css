@@ -6,7 +6,7 @@ h1{
 
 .navBar{
 display: grid;
-background-color: #2D3439;
+/* background-color: #2D3439; */
 display:flex;
 color:#4C565E;
 border-bottom-left-radius: 4px;
@@ -25,6 +25,7 @@ width:30px;
 .navBar__homebutton{
     padding:20px;
     color:white ;
+    display: none;
 }
 li{
     padding: 5px;
