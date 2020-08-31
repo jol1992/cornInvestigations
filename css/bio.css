@@ -8,6 +8,7 @@
 .bioDiv{
     display: grid;
     row-gap: 40px;
+    justify-items: center;
 }
 .bioDiv >* img{
  height: 200px;
