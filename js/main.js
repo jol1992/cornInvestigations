@@ -9,3 +9,13 @@ menuBtn.addEventListener('click', () => {
     menuOpen = false;
   }
 });
+
+const mainDiv = document.getElementById('mainDiv');
+
+window.addEventListener('scroll', function(){
+
+let offset = window.pageYOffset;
+mainDiv.style.backgroundPositionY = offset * 0.7 +"px";
+console.log("Moving")
+
+})
