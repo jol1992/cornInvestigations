@@ -1,4 +1,7 @@
 const menuBtn = document.querySelector('.menu-btn');
+const mainDiv = document.getElementById('mainDiv');
+const navBar = document.getElementById('navbar');
+
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if(!menuOpen) {
@@ -10,12 +13,15 @@ menuBtn.addEventListener('click', () => {
   }
 });
 
-const mainDiv = document.getElementById('mainDiv');
 
 window.addEventListener('scroll', function(){
-
 let offset = window.pageYOffset;
 mainDiv.style.backgroundPositionY = offset * 0.7 +"px";
-console.log("Moving")
+let positon= mainDiv.getBoundingClientRect();
 
+if( positon.top < window.innerHeight && positon.bottom >=0){
+  navBar.style.display= 'none';
+}else{
+  navBar.style.display= 'flex';
+}
 })
