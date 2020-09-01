@@ -23,5 +23,6 @@ if( positon.top < window.innerHeight && positon.bottom >=0){
   navBar.style.display= 'none';
 }else{
   navBar.style.display= 'flex';
+  // navBar.style.backgroundColor= '#2D3439';
 }
 })

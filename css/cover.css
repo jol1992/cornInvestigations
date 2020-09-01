@@ -44,11 +44,10 @@
     border-radius: 50px;
     color:#928B73;
     padding: 20px;
+    font-size: large;
 }
 .mainText > button:hover{
-    background-color:#928B73 ;
-
-  
+    background-color:#928B73 ;  
     color:#251E0A;
 }
 

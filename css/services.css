@@ -1,8 +1,5 @@
 .services{
-
     text-align: center;
-    padding: 40px;
-
 }
 
 .services> h1:first-of-type{
@@ -13,8 +10,6 @@
     display: flex;
        justify-content: center;
        flex-wrap: wrap;
-    padding:40px;
-    border-radius: 50px;
 }
 
 

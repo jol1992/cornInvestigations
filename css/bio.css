@@ -31,6 +31,10 @@
     margin:auto; */
 
 }
+#row{
+    display: flex;
+    flex: auto;
+}
 
 .newsVideo{
     width: 100%;
@@ -38,6 +42,9 @@
     margin: 100px auto;
 }
 
+#bioText{
+    color: #585345;
+}
 
 @media only screen and (max-width:500px){
 
