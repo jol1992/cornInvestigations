@@ -1,13 +1,15 @@
 .contactSection{
-   background-color: #2D3439;
+   background-color: #0E171D;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
+    text-align: center; 
+    /* justify-items: center; */
 
 }
 .contactContainer{
-    display:none;
+    display:grid;
     margin: auto 20%;
     padding: 30px;
     background-color:rgba(68, 65, 65, 0.6);
@@ -27,7 +29,7 @@ textarea{
 
 .contactSection> h1:first-of-type{
     color: white;
-    
+    padding:40px;
 }
 
 
